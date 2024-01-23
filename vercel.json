@@ -1,5 +1,11 @@
 {
-    "version": 2,
-    "builds": [{ "src": "build/**", "use": "@vercel/static-build" }],
-    "routes": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "/index.html" }]
-  }
+  "version": 2,
+  "builds": [
+    { "src": "build/**", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*\\.(json|ico|css|js|png|jpg|jpeg|gif|svg|woff2|ttf|eot)|.*)", "dest": "/$1" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}
