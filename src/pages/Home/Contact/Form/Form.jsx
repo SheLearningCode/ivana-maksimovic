@@ -3,7 +3,7 @@ import styles from "./Form.module.css";
 import ClippedButton from '../../../../components/ClippedButton/ClippedButton';
 import { Box, TextField } from '@mui/material';
 import { makeStyles } from "@mui/styles";
-import { sendCustomEmail } from './email'; // Import the sendCustomEmail function
+import { sendCustomEmail } from './Email.jsx'; // Import the sendCustomEmail function
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$/;
 const isEmailValid = email => emailRegex.test(email);
