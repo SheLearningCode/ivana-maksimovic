@@ -32,7 +32,6 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "dev": "vite --host",
         "start": "vite",
         "build": "vite build",
         "serve": "vite preview"
@@ -58,6 +57,6 @@
     "devDependencies": {
         "@babel/plugin-transform-private-property-in-object": "^7.23.4",
         "@vitejs/plugin-react": "^4.0.4",
-        "vite": "^4.4.9"
+        "vite": "^5.0.12"
     }
 }

@@ -20,7 +20,6 @@ body {
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
-
     min-height: 100vh;
     color: rgb(255, 255, 255) !important;
     background-color: var(--background-universal) !important;
