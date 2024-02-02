@@ -1,7 +1,10 @@
 # Portfolio Website - Ivana Maksimovic
 
 Welcome to my portfolio website built with ReactJS, Three.js, and hosted on Vercel
+
 ![Portfolio Screenshot](public/preview.png)
+
+![Portfolio Screenshot](public/mockup.png)
 
 ## Overview
 
