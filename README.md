@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
 
 - Three.js: Three.js is used for 3D graphics rendering, adding a visually appealing aspect to the portfolio
 
-- Serverless API: The website uses a serverless function hosted on Vercel to handle form submissions and send emails using Nodemailer
+- EmailJs: The website uses EmailJs to handle form submissions and send emails to private mail adress 
 
 
 ## Contact
